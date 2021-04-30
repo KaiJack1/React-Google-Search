@@ -13,7 +13,7 @@ const BookCard = ({
   previewLink,
   infoLink
 }) => {
-  // States
+  // States to update the value
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
 
